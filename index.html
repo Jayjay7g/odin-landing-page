@@ -5,25 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page Project</title>
     <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   </head>
   <body>
     <header class="header">
       <div class="logo">
-        <img id="logo" src="Images/coffee-logo.jpg" alt="coffee point logo">
+        <a href="#welcome"><img id="logo" src="Images/coffee-logo.png" alt="coffee point logo"></a>
       </div>
       <nav id="nav-bar">
         <ul>
-          <li><a href="#welcome">About Us</a></li>
-          <li><a href="#specialties">Specialties</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a class="nav-link" href="#welcome">About Us</a></li>
+          <li><a class="nav-link" href="#specialties">Specialties</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
 
     <section id="welcome">
-      <h1>Welcome</h1>
-      <p>Welcome to Coffee Point, where every cup tells a story. At Coffee Point, we believe in more than just brewing coffee; we believe in cultivating community, fostering connections, and creating moments of joy in every sip. From our carefully sourced beans to our expertly trained baristas, we strive for excellence in every aspect of our coffee journey. Whether you're seeking a cozy spot to unwind, a vibrant atmosphere to catch up with friends, or simply a quick pick-me-up on your way to work, Coffee Point welcomes you with open arms and a warm cup of your favorite brew.</p>
-      <button>Our Specialties</button>
+      <div class="welcome-info">
+        <h1>Welcome</h1>
+        <p>Welcome to Coffee Point, where every cup tells a story. At Coffee Point, we believe in more than just brewing coffee; we believe in cultivating community, fostering connections, and creating moments of joy in every sip. From our carefully sourced beans to our expertly trained baristas, we strive for excellence in every aspect of our coffee journey. Whether you're seeking a cozy spot to unwind, a vibrant atmosphere to catch up with friends, or simply a quick pick-me-up on your way to work, Coffee Point welcomes you with open arms and a warm cup of your favorite brew!</p>
+        <button><a href="#specialties">Our Specialties</a></button>
+      </div>
       <div class="welcome-img">
         <img id="coffee-shop" src="Images/coffee-image.jpg" alt="top view female barista holding cup coffee">
       </div>
@@ -35,7 +40,7 @@
         <div class="menu-item">
           <img id="menu-pic" src="Images/cappuccino.png" alt="Cappuccino in a glass cup">
           <p>Cappuccino</p>
-          <p>Three equla parts of steamed milk, foamed milk, and espresso.</p>
+          <p>Three equal parts of steamed milk, foamed milk, and espresso.</p>
         </div>
         <div class="menu-item">
           <img id="menu-pic" src="Images/frappe.png" alt="Frappe in a glass cup">
