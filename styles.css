@@ -3,6 +3,15 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --top-spacing: 137px;
+}
+
+html {
+  scroll-padding-top: var(--top-spacing);
 }
 
 header {
@@ -85,4 +94,54 @@ header {
 
 #coffee-shop {
   width: 400px;
+}
+
+#specialties {
+  background-color: #BF796E;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 570px;
+  color: white;
+  justify-content: center;
+  gap: 10%;
+}
+
+#specialties h1 {
+  font-size: 38px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  place-items: center;
+  font-size: 15px;
+}
+
+.sub-head {
+  padding: 5px 0;
+  font-weight: 600;
+}
+
+.menu-item p {
+  width: 200px;
+}
+
+#menu-pic {
+  width: 200px;
+  border: 5px solid bisque;
+  border-radius: 7px;
+  padding: 7px;
+}
+
+#macchiato img {
+  width: 237px;
 }
