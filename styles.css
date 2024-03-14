@@ -78,13 +78,14 @@ header {
 }
 
 .welcome-info button {
-  width: 105px;
+  width: 120px;
   height: 30px;
   background-color: #BF796E;
   color: white;
   border: none;
   border-radius: 7px;
   font-weight: 500;
+  font-size: 16px;
 }
 
 .welcome-info a {
@@ -168,4 +169,36 @@ header {
   font-size: 18px;
   display: flex;
   justify-content: right;
+}
+
+#contact {
+  height: 400px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.contact-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 850px;
+  height: 170px;
+  background-color: #BF796E;
+  border-radius: 7px;
+  justify-content: space-evenly;
+}
+
+.contact-btn {
+  width: 100px;
+  height: 30px;
+  border: 2px solid white;
+  background-color: #BF796E;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 7px;
 }
