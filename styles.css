@@ -47,6 +47,12 @@ header {
   font-size: 18px;
 }
 
+#nav-bar a:hover {
+  color: #BF796E;
+  transition: color 0.3s ease-out;
+  font-weight: bold;
+}
+
 .nav-link {
   color: black;
   text-decoration: none;
@@ -86,6 +92,11 @@ header {
   border-radius: 7px;
   font-weight: 500;
   font-size: 16px;
+}
+
+.welcome-info button:hover {
+  background: rgba(191, 121, 110, 0.76);
+  transition: color 0.3s ease-out;
 }
 
 .welcome-info a {
@@ -201,6 +212,11 @@ header {
   font-weight: 500;
   font-size: 16px;
   border-radius: 7px;
+}
+
+.contact-block button:hover {
+  background: rgba(208, 152, 143, 0.76);
+  transition: color 0.3s ease-out;
 }
 
 footer {
